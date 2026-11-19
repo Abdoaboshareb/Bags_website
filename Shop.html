@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Carry & Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="brand" href="Home.html">carry<span>&</span>co.</a>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a class="active" href="Shop.html">Shop</a>
+        <a href="Cart.html">Cart <span class="cart-count">0</span></a>
+    </nav>
+</header>
+
+<main class="shop-page">
+
+    <section class="page-intro">
+        <p class="eyebrow">THE FULL COLLECTION</p>
+        <h1>Bags made to <em>go places.</em></h1>
+        <p>Explore our collection and find your perfect everyday bag.</p>
+    </section>
+
+    <section class="shop-section">
+
+        <div class="shop-toolbar">
+            <span id="product-count">0 products</span>
+
+            <div class="filters">
+                <input
+                    type="search"
+                    id="search-input"
+                    placeholder="Search bags..."
+                >
+
+                <select id="category-filter">
+                    <option value="All">All Categories</option>
+                    <option value="Tote">Tote Bags</option>
+                    <option value="Shoulder">Shoulder Bags</option>
+                    <option value="Backpack">Backpacks</option>
+                    <option value="Crossbody">Crossbody Bags</option>
+                </select>
+
+                <select id="sort-filter">
+                    <option value="featured">Featured</option>
+                    <option value="low">Price: Low to High</option>
+                    <option value="high">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-grid shop-grid" id="all-products"></div>
+
+    </section>
+
+</main>
+
+<footer>
+    <a class="brand" href="Home.html">carry<span>&</span>co.</a>
+    <p>Everyday bags. Thoughtfully selected.</p>
+    <small>© 2026 Carry & Co.</small>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
