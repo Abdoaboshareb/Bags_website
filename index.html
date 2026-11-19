@@ -1,9 +1,103 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=Home.html" />
-  </head>
-  <body>
-    <p>Redirecting to <a href="Home.html">Home</a>...</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carry & Co. | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <a class="brand" href="Home.html">
+            carry<span>&</span>co.
+        </a>
+
+        <nav>
+            <a class="active" href="Home.html">Home</a>
+            <a href="Shop.html">Shop</a>
+            <a href="Cart.html">
+                Cart <span class="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">THE EVERYDAY COLLECTION</p>
+
+                <h1>
+                    Carry what<br>
+                    <em>moves you.</em>
+                </h1>
+
+                <p class="hero-text">
+                    Discover beautiful bags designed for your everyday
+                    adventures. Style, comfort, and functionality in one place.
+                </p>
+
+                <a class="btn" href="Shop.html">
+                    Explore Collection ↗
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1000&q=85"
+                    alt="Elegant handbag">
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">OUR COLLECTION</p>
+                    <h2>Find your <em>favorite</em> bag.</h2>
+                </div>
+
+                <a href="Shop.html" class="text-link">
+                    View All Bags ↗
+                </a>
+            </div>
+
+            <div class="product-grid" id="featured-products"></div>
+        </section>
+
+        <!-- Story Section -->
+        <section class="story-band">
+            <div>
+                <p class="eyebrow">CARRY YOUR STYLE</p>
+                <h2>
+                    A good bag<br>
+                    goes everywhere.
+                </h2>
+            </div>
+
+            <p>
+                From workdays to weekends, our collection brings together
+                timeless designs and everyday functionality.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a class="brand" href="Home.html">
+            carry<span>&</span>co.
+        </a>
+
+        <p>Everyday bags. Thoughtfully selected.</p>
+
+        <small>© 2026 Carry & Co.</small>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
 </html>
